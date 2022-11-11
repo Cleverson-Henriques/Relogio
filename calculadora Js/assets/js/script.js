@@ -1,7 +1,7 @@
 function relogio() {
   var data=new Date();
   var hor=data.getHours();
-  var min=dara.getMinutes();
+  var min=data.getMinutes();
 
   if (hor < 10){
      hor="0"+hor;
@@ -12,6 +12,6 @@ function relogio() {
   }
 
   var horas= hor + ":" + min;
-  document.getElementsByClassName("Rel").value=horas;
+  document.getElementById("Clock").value=horas;
 }
   var timer=setInterval(relogio,1000);
