@@ -4,10 +4,17 @@
     padding: 0;
   }
   
-.main {
+body {
   height: 100vh;
+  background-color: black;
   display: flex;
-  justify-content: center;
   align-items: center;
-  
+  justify-content: center;
+}
+
+.Clock {
+  height: 30vh;
+  width: 85vh;
+  background-color: aqua;
+
 }
