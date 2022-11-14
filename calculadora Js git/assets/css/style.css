@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+body {
+  height: 100vh;
+  background-color: black;
+}
+
+#H1 {
+  color: chartreuse;
+}
+
+.Clock {
+  height: 30vh;
+  width: 60vh;
+  background-color: rgb(107, 40, 1);
+  
+}
+
+.Time {
+  background-color: chocolate;
+  height: 15vh;
+  width: 45vh;
+}
