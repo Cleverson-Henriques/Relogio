@@ -5,23 +5,48 @@
   }
   
 body {
-  height: 100vh;
-  background-color: black;
-}
-
-#H1 {
-  color: chartreuse;
+  background-color: #e0ffc3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .Clock {
-  height: 30vh;
-  width: 60vh;
-  background-color: rgb(107, 40, 1);
-  
+  background-color: #3f8978;
+  height: 50vh;
+  width: 25rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 0.3rem;
+  box-shadow: 0rem 1rem 1.5rem rgba(0, 0, 0, 0.5) ;
 }
 
-.Time {
-  background-color: chocolate;
-  height: 15vh;
-  width: 45vh;
+.hrs {
+  height: 13vh;
+  width: 15rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  color: #fff;
+  background: rgba(81,68,66);
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, .7);
+  border-radius: 5px;
+  letter-spacing: 3px;
+}
+
+#H1 {
+  font-weight: bolder;
+  font-size: 5rem;
+  color: #2c201e;
+}
+
+#horas,
+#minutos,
+#teste {
+  padding-top: 5%;
+  font-weight: bolder;
+  font-size: 2.5rem;
+
 }

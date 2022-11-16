@@ -19,7 +19,7 @@ const Clock = setInterval(function time() {
   if (hr < 12) {
     periodo = "Bom Dia"; 
   
-  } else if (hr > 12 && hr <= 18) {
+  } else if (hr >= 12 && hr <= 18) {
     periodo = "Boa Tarde";
   
   } else {
