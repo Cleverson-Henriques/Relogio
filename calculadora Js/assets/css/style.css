@@ -5,7 +5,9 @@
   }
   
 body {
-  background-color: #e0ffc3;
+  background: #bdc3c7; 
+  background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);  
+  background: linear-gradient(to right, #2c3e50, #bdc3c7);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -13,7 +15,7 @@ body {
 }
 
 .Clock {
-  background-color: #3f8978;
+  background-color: #46566e;
   height: 50vh;
   width: 25rem;
   display: flex;
@@ -30,7 +32,7 @@ body {
   flex-direction: row;
   justify-content: center;
   color: #fff;
-  background: rgba(81,68,66);
+  background: rgb(31, 31, 32);
   box-shadow: 5px 5px 15px rgba(0, 0, 0, .7);
   border-radius: 5px;
   letter-spacing: 3px;
@@ -39,13 +41,13 @@ body {
 #H1 {
   font-weight: bolder;
   font-size: 5rem;
-  color: #2c201e;
+  color: #1f1f20;
 }
 
 #horas,
 #minutos,
 #teste {
-  padding-top: 5%;
+  padding-top: 7%;
   font-weight: bolder;
   font-size: 2.5rem;
 
