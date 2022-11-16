@@ -5,4 +5,4 @@ tambem existe uma função para alterar a mensagem dependendo do horario
 bom dia ate as 12:00 
 boa tarde ate as 18:00
 e boa noite depois disso 
-(https://github.com/Cleverson-Henriques/Relogio/blob/main/img-clock.png)
+![img](https://github.com/Cleverson-Henriques/Relogio/blob/main/img-clock.png)
